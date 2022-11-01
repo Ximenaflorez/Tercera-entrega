@@ -35,36 +35,40 @@
       .container .aloja .card .card-body {
         padding-left: 60px; }
 
-@media (max-width: 768px) {
-  iframe {
-    display: block;
-    margin: auto;
-    padding-top: 20px; } }
+/*
+@media (max-width:768px) {
+    iframe{
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+    }
+}
 
-@media (max-width: 576px) {
-  iframe {
-    display: block;
-    margin: auto;
-    padding-top: 20px; } }
-
+@media(max-width:576px){
+    iframe{
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+    }
+} */
 .container {
   background-color: white; }
   .container .activ {
-    margin: 20px; }
+    margin: 10px; }
     .container .activ .card {
-      margin: 10px;
-      padding: 10px; }
+      width: 350px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-bottom: 20px; }
       .container .activ .card img {
-        opacity: 0.5; }
+        opacity: 0.5;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px; }
       .container .activ .card h2 {
         font-family: 'Roboto', sans-serif;
         font-size: 24px;
         padding-top: 90px; }
-
-@media (max-width: 1300px) {
-  .card {
-    margin: auto;
-    width: 300px; } }
 
 @media (max-width: 992px) {
   .card {
