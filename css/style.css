@@ -35,22 +35,18 @@
       .container .aloja .card .card-body {
         padding-left: 60px; }
 
-/*
-@media (max-width:768px) {
-    iframe{
-        display: block;
-        margin: auto;
-        padding-top: 20px;
-    }
-}
+@media (max-width: 768px) {
+  iframe {
+    display: block;
+    margin: auto;
+    padding-top: 20px; } }
 
-@media(max-width:576px){
-    iframe{
-        display: block;
-        margin: auto;
-        padding-top: 20px;
-    }
-} */
+@media (max-width: 576px) {
+  iframe {
+    display: block;
+    margin: auto;
+    padding-top: 20px; } }
+
 .container {
   background-color: white; }
   .container .activ {
@@ -71,7 +67,7 @@
         padding-top: 90px; }
 
 @media (max-width: 992px) {
-  .card {
+  .container .activ .card {
     width: 300px;
     margin: auto; } }
 
