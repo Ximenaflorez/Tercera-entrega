@@ -13,5 +13,65 @@
   .container div .col-md-4 img {
     border-radius: 10px; }
 
+.container div .col {
+  color: #090654;
+  margin-bottom: 20px; }
+
+.container .container-2 {
+  margin-top: 20px;
+  color: #090654; }
+
+.container .gastro {
+  background-color: white; }
+  .container .gastro .card {
+    margin-top: 20px; }
+
 .container {
-  background-color: #e8f9ff; }
+  background-color: white; }
+  .container .aloja {
+    margin-top: 20px; }
+    .container .aloja .card {
+      margin-bottom: 20px; }
+      .container .aloja .card .card-body {
+        padding-left: 60px; }
+
+@media (max-width: 768px) {
+  iframe {
+    display: block;
+    margin: auto;
+    padding-top: 20px; } }
+
+@media (max-width: 576px) {
+  iframe {
+    display: block;
+    margin: auto;
+    padding-top: 20px; } }
+
+.container {
+  background-color: white; }
+  .container .activ {
+    margin: 20px; }
+    .container .activ .card {
+      margin: 10px;
+      padding: 10px; }
+      .container .activ .card img {
+        opacity: 0.5; }
+      .container .activ .card h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        padding-top: 90px; }
+
+@media (max-width: 1300px) {
+  .card {
+    margin: auto;
+    width: 300px; } }
+
+@media (max-width: 992px) {
+  .card {
+    width: 300px;
+    margin: auto; } }
+
+@media (max-width: 768px) {
+  .card {
+    width: 400px;
+    margin: auto; } }

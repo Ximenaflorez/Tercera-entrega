@@ -1,0 +1,29 @@
+.container{
+    background-color: white;
+    .aloja{
+    margin-top: 20px;
+
+    .card{
+        margin-bottom: 20px;
+        .card-body{
+            padding-left:60px;
+        }
+    }
+}
+}
+
+@media (max-width:768px) {
+    iframe{
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+    }
+}
+
+@media(max-width:576px){
+    iframe{
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+    }
+}
