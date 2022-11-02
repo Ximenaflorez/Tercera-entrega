@@ -17,7 +17,7 @@
     iframe{
         display: block;
         margin: auto;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 }
 }
@@ -25,7 +25,7 @@
 @media(max-width:576px){
     .aloja{
     iframe{
-        display: block;
+        width: 60%;
         margin-bottom: 10px;
         padding-top: 20px;
     }
